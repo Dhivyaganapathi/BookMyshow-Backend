@@ -17,7 +17,7 @@ app.use(
 app.get("/movie/get-movies", async (req, res) => {
   try {
     // Step 1. Connect the Database
-    const client = new MongoClient(URL, {}).connect();
+    const client = new MongoClient("mongodb+srv://Dhivyaganapathi:<db_password>@cluster0.ucefe.mongodb.net/?retryWrites=true&w=majority&appName=cluster0", {}).connect();
 
     // Step 2. Select the DB
     let db = (await client).db(DB_NAME);
