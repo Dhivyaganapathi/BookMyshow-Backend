@@ -1,5 +1,5 @@
 {
-  "name": "tickerserver",
+  "name": "mongo-nodejs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Mongodb first nodejs project",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
